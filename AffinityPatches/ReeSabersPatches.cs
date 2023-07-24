@@ -11,13 +11,12 @@ namespace ReeSabers.CustomColors.AffinityPatches
 		private ColorManager _colorManager;
 		public ReeSabersPatches(ColorManager colorManager)
 		{
-			Plugin.Log.Info("Hi");
 			_colorManager = colorManager;
 		}
 
 		[AffinityPrefix]
 		[AffinityPatch(typeof(ColorController), "Update")]
-		public bool BlurSaberPatch(ColorController __instance, ColorController.Settings ____settings)
+		public bool BlurSaberPatch(ColorController __instance)
 		{
 			var saberType = __instance.transform.parent.parent.parent.gameObject.name == "RightSaber" ? SaberType.SaberB : SaberType.SaberA;
 			var color = _colorManager.ColorForSaberType(saberType);

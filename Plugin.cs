@@ -18,18 +18,5 @@ namespace ReeSabers.CustomColors
 			Log = logger;
 			zenjector.Install<ReeSabersCustomColorsGameInstaller>(Location.Player);
 		}
-
-		[OnStart]
-		public void OnApplicationStart()
-		{
-			Plugin.Log.Info("OnApplicationStart");
-		}
-
-		[OnExit]
-		public void OnApplicationQuit()
-		{
-
-		}
-
 	}
 }
