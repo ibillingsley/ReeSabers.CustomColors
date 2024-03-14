@@ -25,7 +25,7 @@ namespace ReeSabers.CustomColors.AffinityPatches
 			float v = 0f; //TODO: Find a way to apply this. Currently setting brightness above 0 makes it glow a ton ):
 			RGBToHSV(color, out h, out s, out v);
 			var rad = (h * Mathf.Deg2Rad) / 6.28319f;
-			__instance.HsbTransform.SetValue(new HsbTransform(rad, s, 0f, ColorTransformType.HueOverride), __instance);
+			__instance.HsbTransform.SetValue(new HsbTransform(rad, s, 0f, ColorTransformType.HueShift), __instance);
 			return false;
 		}
 
