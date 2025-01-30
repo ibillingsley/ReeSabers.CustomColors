@@ -3,9 +3,9 @@
 	"id": "ReeSabers.CustomColors",
 	"name": "ReeSabers.CustomColors",
 	"author": "FutureMapper",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "An Extension to Reesabers that will automatically attempt to match your color scheme and set a hue override for each saber",
-	"gameVersion": "1.29.1",
+	"gameVersion": "1.39.1",
 	"dependsOn": {
 		"BSIPA": "^4.2.0",
 		"ReeSabers": "^0.3.7"

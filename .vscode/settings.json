@@ -1,9 +1,0 @@
-{
-	"files.associations": {
-		"*.bsml": "html"
-	},
-	"html.format.wrapAttributes": "preserve",
-	"omnisharp.organizeImportsOnFormat": true,
-	"omnisharp.useEditorFormattingSettings": false,
-	"dotnet.codeLens.enableReferencesCodeLens": false
-}
