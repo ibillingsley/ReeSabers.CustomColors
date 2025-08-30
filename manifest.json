@@ -1,13 +1,13 @@
 ﻿{
-	"$schema": "https://raw.githubusercontent.com/bsmg/BSIPA-MetadataFileSchema/master/Schema.json",
-	"id": "ReeSabers.CustomColors",
-	"name": "ReeSabers.CustomColors",
-	"author": "iza",
-	"version": "1.0.4",
-	"description": "Changes NotesColor color mode to use hue shift instead of hue override",
-	"gameVersion": "1.39.1",
-	"dependsOn": {
-		"BSIPA": "^4.2.0",
-		"ReeSabers": "^0.3.7"
-	}
+  "$schema": "https://raw.githubusercontent.com/bsmg/BSIPA-MetadataFileSchema/master/Schema.json",
+  "id": "ReeSabers.NotesColorShift",
+  "name": "ReeSabers.NotesColorShift",
+  "author": "iza",
+  "version": "1.1.0",
+  "description": "Changes NotesColor color mode to use hue shift instead of hue override",
+  "gameVersion": "1.39.1",
+  "dependsOn": {
+    "BSIPA": "^4.2.0",
+    "ReeSabers": "^0.3.7"
+  }
 }

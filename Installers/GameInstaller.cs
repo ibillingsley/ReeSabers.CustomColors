@@ -1,7 +1,7 @@
-﻿using ReeSabers.CustomColors.AffinityPatches;
+﻿using ReeSabers.NotesColorShift.AffinityPatches;
 using Zenject;
 
-namespace ReeSabers.CustomColors.Installers
+namespace ReeSabers.NotesColorShift.Installers
 {
 	internal class GameInstaller : Installer
 	{

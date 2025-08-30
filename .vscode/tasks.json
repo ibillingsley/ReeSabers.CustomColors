@@ -5,11 +5,7 @@
       "label": "build",
       "command": "dotnet",
       "type": "shell",
-      "args": [
-        "build",
-        "ReeSabers.CustomColors.csproj",
-        "-property:Configuration=Release"
-      ],
+      "args": ["build", "ReeSabers.NotesColorShift.csproj", "-property:Configuration=Release"],
       "group": "build",
       "problemMatcher": "$msCompile"
     }

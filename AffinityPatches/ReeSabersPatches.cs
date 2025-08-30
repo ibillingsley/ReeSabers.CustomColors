@@ -1,6 +1,6 @@
 ﻿using SiraUtil.Affinity;
 
-namespace ReeSabers.CustomColors.AffinityPatches
+namespace ReeSabers.NotesColorShift.AffinityPatches
 {
 	public class ReeSabersPatches : IAffinity
 	{

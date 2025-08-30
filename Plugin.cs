@@ -1,9 +1,9 @@
 ﻿using IPA;
-using ReeSabers.CustomColors.Installers;
+using ReeSabers.NotesColorShift.Installers;
 using SiraUtil.Zenject;
 using IPALogger = IPA.Logging.Logger;
 
-namespace ReeSabers.CustomColors
+namespace ReeSabers.NotesColorShift
 {
 	[Plugin(RuntimeOptions.SingleStartInit)]
 	public class Plugin
