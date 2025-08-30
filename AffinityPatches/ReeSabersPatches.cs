@@ -1,7 +1,4 @@
-﻿using System;
-using ReeSabers.Sabers;
-using ReeSabers.UI;
-using SiraUtil.Affinity;
+﻿using SiraUtil.Affinity;
 using UnityEngine;
 
 namespace ReeSabers.CustomColors.AffinityPatches
@@ -10,7 +7,7 @@ namespace ReeSabers.CustomColors.AffinityPatches
 	{
 		[AffinityPrefix]
 		[AffinityPatch(typeof(ColorController), nameof(ColorController.Update))]
-		public bool BlurSaberPatch(ColorController __instance)
+		public bool ColorControllerPatch(ColorController __instance)
 		{
 			if (__instance._isDirty && __instance._settings.type == ColorTransformType.NotesColor)
 			{

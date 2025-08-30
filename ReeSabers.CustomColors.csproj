@@ -123,7 +123,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AffinityPatches\ReeSabersPatches.cs" />
-    <Compile Include="Installers\ReeSabersCustomColorsGameInstaller.cs" />
+    <Compile Include="Installers\GameInstaller.cs" />
     <Compile Include="Plugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

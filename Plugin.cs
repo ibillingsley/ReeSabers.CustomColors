@@ -16,7 +16,8 @@ namespace ReeSabers.CustomColors
 		{
 			Instance = this;
 			Log = logger;
-			zenjector.Install<ReeSabersCustomColorsGameInstaller>(Location.Player);
+			zenjector.Install<GameInstaller>(Location.Player);
+			zenjector.Install<GameInstaller>(Location.Menu);
 		}
 	}
 }
